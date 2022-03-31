@@ -33,7 +33,7 @@ the pretrained glove word embeddings can be downloaded from [Glove](https://cdn-
 - Or, training (finetuning) the word embeddings for the corpus with word2vec tool.
 
 ### Training
--Easy to train:
+- Easy to train:
 ```bash
 python main.py
 ```
@@ -45,14 +45,17 @@ Changing the arguments in `main.py` for different datasets and settings. The lea
 We have provided the K-means clustering and LogisticRegression classification codes in `cluster_clc.py` file. Those results are auto-reported during training.
 - Topic quality
 
-We have provided the topic diversity in `Trainer.py`. For topic coherence, please refer to [Palmetto](https://github.com/dice-group/Palmetto). which is not provided in this repo. One needs to download and set up separately.
+We have provided the topic diversity in `Trainer.py`. For topic coherence, please refer to [Palmetto](https://github.com/dice-group/Palmetto), which is not provided in this repo. One needs to download and set up separately.
 
 ## Citation
 If you find this repo useful to your project, please consider to cite it with following bib:
 
+```bash
 @article{wang2022representing,
   title={Representing Mixtures of Word Embeddings with Mixtures of Topic Embeddings},
   author={Wang, Dongsheng and Guo, Dandan and Zhao, He and Zheng, Huangjie and Tanwisuth, Korawat and Chen, Bo and Zhou, Mingyuan},
   journal={arXiv preprint arXiv:2203.01570},
   year={2022}
 }
+```
+
