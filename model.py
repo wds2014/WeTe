@@ -123,7 +123,7 @@ class WeTe(nn.Module):
 
     def cal_phi(self):
         inner_p = torch.matmul(self.rho, self.alpha.t())
-        return F.softmax(inner_p, dim=-1)
+        return F.softmax(inner_p, dim=0)
 
     def cost_ct(self, inner_p, cost_c, x, theta):
         """
