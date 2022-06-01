@@ -51,11 +51,13 @@ We have provided the topic diversity in `Trainer.py`. For topic coherence, pleas
 If you find this repo useful to your project, please consider to cite it with following bib:
 
 ```bash
-@article{wang2022representing,
-  title={Representing Mixtures of Word Embeddings with Mixtures of Topic Embeddings},
-  author={Wang, Dongsheng and Guo, Dandan and Zhao, He and Zheng, Huangjie and Tanwisuth, Korawat and Chen, Bo and Zhou, Mingyuan},
-  journal={arXiv preprint arXiv:2203.01570},
-  year={2022}
+@inproceedings{
+wang2022representing,
+title={Representing Mixtures of Word Embeddings with Mixtures of Topic Embeddings},
+author={Dongsheng Wang and Dan dan Guo and He Zhao and Huangjie Zheng and Korawat Tanwisuth and Bo Chen and Mingyuan Zhou},
+booktitle={International Conference on Learning Representations},
+year={2022},
+url={https://openreview.net/forum?id=IYMuTbGzjFU}
 }
 ```
 
